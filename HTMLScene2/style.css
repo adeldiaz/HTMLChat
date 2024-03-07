@@ -1,0 +1,197 @@
+body{
+    background-color: black;
+     width: 678px;
+    height: 814px;
+    
+}
+
+.container {
+    width: 678px;
+    height: 814px;
+    margin-left: 120px;
+    position: absolute;
+    background-color: white;
+    
+    
+}
+
+.container .content {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    /* Add any additional styles for the content as needed */
+}
+
+.topBar{
+    width: 668px;
+    height: 73px;
+}
+
+
+
+
+.column1{
+    display: block;
+  
+}
+
+.circle {
+    width: 40px;
+    height: 40px;
+    background-color: rgb(215, 215, 210);
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    color: white;
+
+   
+}
+
+.circle2 {
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    color: white;
+  
+}
+
+.messageBar {
+    height: 20px;
+    width: 260px;
+    background-color: white;
+    border-radius: 10%;
+    border: 1px solid black;
+    justify-content: center;
+    margin-left: 20px;
+    padding-top: 20px;
+  
+
+}
+
+
+.table-container table {
+    width: 50%; /* Adjust the width as needed */
+}
+
+.messageBar2 {
+    height: 20px;
+    width: 260px;
+    background-color: rgb(30, 30, 21);
+    border-radius: 25px;
+    border: 1px solid black;
+    color: white;
+    justify-content: center;
+    margin-right: 20px;
+    padding-top: 20px;
+  
+}
+
+.message-container{
+    display: grid;
+    padding-top: 20px;
+   
+    
+    
+}
+
+.message1 {
+    display: inline-flex;
+    
+    visibility: hidden;
+}
+
+.message2{
+    display: inline-flex;
+    justify-content: flex-end;
+
+   
+    visibility: hidden;
+
+    
+}
+.message3 {
+    display: inline-flex;
+    /* padding-bottom: 6px; */
+    padding-bottom: 6px;
+    visibility: hidden;
+}
+
+
+
+/* .message1{
+    float: right;
+} */
+
+.button1{
+
+    height: 40px;
+    width: 180px;
+    border-radius: 25px;
+    background-color: white;
+   
+}
+
+.button2{
+
+    height: 40px;
+    width: 180px;
+    background-color: black;
+    border-radius: 25px;
+    color: white;
+}
+
+.button3{
+
+    height: 40px;
+    width: 180px;
+    border-radius: 25px;
+    background-color: white;
+}
+
+table.rows {
+    border-collapse: separate;
+    border-spacing: 0 1em;
+    padding-bottom: 100px;
+}
+
+table.buttonContainer {
+    border-collapse: separate;
+    border-spacing: 0 1em;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 70x;
+   
+}
+
+
+
+.textContainer{
+    display: flex;
+    position: relative;
+    
+}
+
+.bottomBar{
+    width: 678px;
+    height: 73px;
+  
+}
+
+.snedButton{
+    width: 40px;
+    height: 40px;
+position: absolute;
+right: 0;
+margin-right: 20px;
+margin-top: 20px;
+background-color: black;
+border-radius: 25%;
+
+}
